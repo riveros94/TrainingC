@@ -1,3 +1,30 @@
+/*
+* CLOTHING STORE MANAGEMENT SYSTEM
+* 
+* GOAL:
+* Develop a simple system to control sales for a clothing store that carries
+* different types of products (shirts, pants, caps) in various colors and
+* with distinct prices.
+* 
+* MAIN FEATURES:
+* 1. Control product inventory (code, description, type, price, quantity)
+* 2. Process sales through customer CPF
+* 3. Check product availability before sale
+* 4. Automatically update inventory after each sale
+* 5. Suggest alternative products of the same type when insufficient stock
+* 6. Calculate sales totals per product (in currency)
+* 7. Calculate sales totals per product type (in units)
+* 8. Generate final report with sales summary
+* 
+* BUSINESS RULES:
+* - Each product has unique code, description (color), type and price
+* - Sales are only made if there is sufficient stock
+* - System suggests alternatives only if they meet the requested quantity
+* - Separate control of sales by individual product and by category
+* 
+* STRUCTURE: Uses only basic C functions, arrays and simple structures
+*/
+
 #include <stdio.h>
 #include <string.h>
 #define TAMPRODUTO 8
